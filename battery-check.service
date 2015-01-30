@@ -1,0 +1,5 @@
+[Unit]
+Description=Check battery and displays warnings when it's low.
+
+[Service]
+ExecStart=/home/tiddo/src/batteryChecker/batteryChecker.sh
